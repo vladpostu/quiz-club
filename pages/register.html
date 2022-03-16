@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./../styles/style.css">
+    <title>Quiz Club - Register</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <img src="./../assets/imgs/Cloudy.svg" class="background" alt="">
+        <div class="quiz">
+            <h2 class="mb-4">Register</h2>
+            <form action="../api/register_api.php" method="post">
+                <label for="username" class="label mt-2">Username</label>
+                <input required type="text" class="form-control" placeholder="Vlad" name="username">
+                <label for="password" class="label mt-3">Password</label>
+                <input required type="password" class="form-control mt2" name="password" id="password">
+                <label for="confirm_password" class="label mt-3">Confirm password</label>
+                <input required type="password" class="form-control mt2" name="password" id="confirm_password">
+                <button class="btn btn-primary mt-4" disabled type="submit" id="submit_button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let password;
+        let confirm_password = document.querySelector('#confirm_password');
+        const submit_button = document.querySelector('#submit_button');
+
+        confirm_password.addEventListener('keyup', (e) => {
+            password = document.querySelector('#password');
+            if (e.target.value == password.value) {
+                submit_button.removeAttribute('disabled');
+            } else {
+                submit_button.setAttribute('disabled', true);
+            }
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

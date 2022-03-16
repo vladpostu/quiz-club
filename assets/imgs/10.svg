@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="351px" height="234px" viewBox="0 0 351 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-789.000000, -1623.000000)">
+            <g id="Group-22" transform="translate(106.000000, 413.000000)">
+                <g id="10" transform="translate(683.000000, 1210.000000)">
+                    <g id="Module" transform="translate(175.500000, 58.500000) rotate(-270.000000) translate(-175.500000, -58.500000) translate(117.000000, 0.000000)">
+                        <polygon id="Shape" fill="#3C61AF" points="0 -1.01481323e-16 117 0 117 117 0 117"></polygon>
+                        <polygon id="Shape" fill="#FF6242" transform="translate(58.500000, 58.500000) scale(-1, -1) translate(-58.500000, -58.500000) " points="0 0 117 117 0 117"></polygon>
+                        <path d="M59.67,14.625 C83.9014934,14.625 103.545,34.2685066 103.545,58.5 C103.545,82.7314934 83.9014934,102.375 59.67,102.375 C35.4385066,102.375 15.795,82.7314934 15.795,58.5 C15.795,34.2685066 35.4385066,14.625 59.67,14.625 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                    <g id="Module" transform="translate(234.000000, 61.000000)" fill="#00C9F2">
+                        <polygon id="Shape" transform="translate(29.250000, 29.250000) scale(-1, -1) translate(-29.250000, -29.250000) " points="0 0 58.5 58.5 0 58.5"></polygon>
+                        <polygon id="Shape" transform="translate(87.750000, 87.750000) scale(-1, -1) rotate(-180.000000) translate(-87.750000, -87.750000) " points="58.5 58.5 117 117 58.5 117"></polygon>
+                        <polygon id="Shape" transform="translate(29.250000, 87.750000) scale(-1, -1) rotate(-90.000000) translate(-29.250000, -87.750000) " points="1.69900205e-12 58.5 58.5 117 1.69900205e-12 117"></polygon>
+                        <polygon id="Shape" transform="translate(87.750000, 29.250000) scale(-1, -1) rotate(-270.000000) translate(-87.750000, -29.250000) " points="58.5 3.09063886e-12 117 58.5 58.5 58.5"></polygon>
+                    </g>
+                    <g id="Module" transform="translate(58.500000, 175.500000) rotate(-90.000000) translate(-58.500000, -175.500000) translate(0.000000, 117.000000)">
+                        <polygon id="Shape" fill="#FFDC09" transform="translate(58.500000, 58.500000) scale(-1, -1) translate(-58.500000, -58.500000) " points="0 0 117 117 0 117"></polygon>
+                        <rect id="Shape" fill="#00C9F2" x="0" y="58.5" width="58.5" height="58.5"></rect>
+                        <polygon id="Shape" fill="#E4E7EB" transform="translate(87.750000, 29.250000) scale(-1, -1) translate(-87.750000, -29.250000) " points="58.5 0 117 58.5 58.5 58.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
