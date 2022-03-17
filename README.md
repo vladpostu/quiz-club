@@ -1,4 +1,4 @@
-# Quiz Club 
+# Quiz Club - Triva Game 
 
 Simple trivia web app/game
 
